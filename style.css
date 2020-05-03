@@ -1,0 +1,49 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+body {
+  justify-content: center;
+  position: relative;
+  background-color: rgb(24, 65, 88);
+}
+/* Nav Bar */
+#header {
+  display: inline-flexbox;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: rgba(0, 0, 255, 0.281);
+  font-size: 2.25vw;
+}
+.nav-bar {
+  float: right;
+  text-transform: uppercase;
+  padding-top: 0.35%;
+  margin-bottom: 0;
+  font-size: 1.5vw;
+  word-spacing: 6px;
+}
+
+.nav-bar li {
+  display: inline;
+}
+
+/* intro */
+#introContent {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  padding-bottom: 0.5px;
+  margin-bottom: 0.5px;
+}
+
+#subTitle {
+  margin-top: 0.5px;
+  padding-top: 0.5px;
+}
