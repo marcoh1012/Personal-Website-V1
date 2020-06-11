@@ -13,7 +13,7 @@ header,
 #introContent {
     height: 100;
     color: white;
-    background: url('imgs/homepage.jpg') no-repeat center center fixed;
+    background: url('imgs/homepage2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -27,10 +27,10 @@ header,
 }
 
 #introBox {
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgba(2, 159, 250, 0.555);
     background-color: rgb(0, 0, 0, 0.75);
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 .typewriter h3 {
@@ -42,12 +42,28 @@ header,
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
-@keyframes typing {
+#introBox p {
+    overflow: hidden;
+    border-right: .05em solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/* @keyframes typing {
     from {
         width: 0
     }
     to {
-        width: 100%
+        width: fit-content
     }
 }
 
@@ -59,4 +75,4 @@ header,
     50% {
         border-color: orange;
     }
-}
+} */
