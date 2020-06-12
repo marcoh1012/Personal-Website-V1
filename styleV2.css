@@ -27,52 +27,135 @@ header,
 }
 
 #introBox {
-    /* border-style: solid;
-    border-color: rgba(2, 159, 250, 0.555);
-    background-color: rgb(0, 0, 0, 0.75);
-    border-radius: 5px; */
+    text-align: center;
 }
 
-.typewriter h3 {
-    overflow: hidden;
-    border-right: .15em solid orange;
+#introBox div {
+    border-right: .15em solid #ffffff;
+    font-family: "Courier";
     white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.15em;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-#introBox p {
     overflow: hidden;
-    border-right: .05em solid;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.15em;
-    animation: caret 1s steps(1) infinite;
 }
 
-@keyframes caret {
+#introBox div:nth-child(1) {
+    width: 20em;
+    -webkit-animation: type 4s steps(40, end);
+    animation: type 4s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+#introBox div:nth-child(2) {
+    width: 21rem;
+    opacity: 0;
+    -webkit-animation: type2 4s steps(30, end);
+    animation: type2 4s steps(30, end);
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+#introBox div:nth-child(3) {
+    width: 14em;
+    height: 20px;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid #ffffff;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid #ffffff;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid #ffffff;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid #ffffff;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
     50% {
         border-color: transparent;
     }
 }
 
-
-/* @keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: fit-content
+@-webkit-keyframes blink {
+    50% {
+        border-color: tranparent;
     }
 }
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: orange;
-    }
-} */
