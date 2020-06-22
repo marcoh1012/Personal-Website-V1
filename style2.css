@@ -67,3 +67,20 @@ h4 {
     border-radius: 50px;
     padding: 1em;
 }
+
+
+/* Carousel */
+
+.carousel {
+    width: 100%;
+    height: 700px;
+}
+
+#carousel-pic {
+    height: 600px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    color: black !important
+}
