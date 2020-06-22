@@ -47,7 +47,7 @@ header,
 }
 
 #introBox div:nth-child(2) {
-    width: 21rem;
+    width: 18rem;
     opacity: 0;
     -webkit-animation: type2 4s steps(30, end);
     animation: type2 4s steps(30, end);
