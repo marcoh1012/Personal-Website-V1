@@ -1,13 +1,36 @@
 /* Style for body of Website */
 
 #mainInfo {
-    background-color: blue;
+    background-color: rgb(26, 82, 118);
+    color: white;
 }
 
 h2 {
+    padding-top: 3rem;
     text-align: center;
 }
 
 .row {
     text-align: center;
+}
+
+#aboutMe {
+    text-align: left;
+}
+
+#headshot {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+li {
+    display: inline;
+    margin-right: 0.5rem;
+    padding-right: 0.5rem;
 }

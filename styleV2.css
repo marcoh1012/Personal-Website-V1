@@ -6,7 +6,8 @@ header,
 }
 
 #navbar-container {
-    background-color: rgba(2, 159, 250, 0.555);
+    /* background-color: rgba(2, 159, 250, 0.555); */
+    background-color: rgb(26, 82, 118);
     color: White;
 }
 
