@@ -1,0 +1,13 @@
+/* Style for body of Website */
+
+#mainInfo {
+    background-color: blue;
+}
+
+h2 {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
