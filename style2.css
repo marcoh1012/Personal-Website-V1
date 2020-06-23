@@ -81,6 +81,18 @@
         text-align: center;
     }
     
+    .carousel-btn {
+        border-style: none;
+        color: white !important;
+        font-size: 1.5rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .carousel-btn:hover {
+        color: red !important
+    }
+    
     #carousel-pic {
         width: fit-content;
         margin: auto;
@@ -99,4 +111,9 @@
     
     .carousel-caption h5 {
         text-decoration: underline;
+    }
+    /* modals style */
+    
+    .modal {
+        color: blue;
     }
