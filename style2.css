@@ -1,86 +1,102 @@
-/* Style for body of Website */
-
-#mainInfo {
-    background-color: rgb(26, 82, 118);
-    color: white;
-}
-
-h2 {
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.row {
-    text-align: center;
-}
-
-#aboutMe {
-    text-align: left;
-}
-
-#headshot {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 400px;
-}
-
-ul {
-    list-style-type: none;
-    display: block;
-}
-
-li {
-    display: inline;
-    margin-right: 0.5rem;
-    padding-right: 0.5rem;
-}
-
-
-/* Section Detail Font Styles */
-
-h4 {
-    padding-bottom: 0.5em;
-}
-
-
-/* icon styles */
-
-#icon {
-    width: 128px;
-    height: 128px;
-    padding: 1rem;
-    transition: filter .5s ease-in-out;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#icon:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-}
-
-#bbcg-icon {
-    width: 200;
-    height: 200px;
-    border-radius: 50px;
-    padding: 1em;
-}
-
-
-/* Carousel */
-
-.carousel {
-    width: 100%;
-    height: 700px;
-}
-
-#carousel-pic {
-    height: 600px;
-    margin: 0 auto;
-}
-
-.carousel-caption {
-    color: black !important
-}
+    /* Style for body of Website */
+    
+    #mainInfo {
+        background-color: rgb(26, 82, 118);
+        color: white;
+    }
+    
+    h2 {
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    #aboutMe {
+        text-align: left;
+    }
+    
+    #headshot {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 400px
+    }
+    
+    @media screen and (max-width: 800px) {
+        #headshot {
+            padding-top: 0.5rem;
+            width: 200px;
+        }
+    }
+    
+    ul {
+        list-style-type: none;
+        display: block;
+    }
+    
+    ul>li {
+        display: inline;
+        margin-right: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    /* Section Detail Font Styles */
+    
+    h4 {
+        padding-bottom: 0.5em;
+    }
+    /* icon styles */
+    
+    #icon {
+        width: 128px;
+        height: 128px;
+        padding: 1rem;
+        transition: filter .5s ease-in-out;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+    }
+    
+    #icon:hover {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+    
+    #bbcg-icon {
+        width: 200;
+        height: 200px;
+        border-radius: 50px;
+        padding: 1em;
+    }
+    /* Carousel */
+    
+    .carousel {
+        max-height: 800px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #carousel-pic {
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .carousel-inner img {
+        margin: auto;
+    }
+    
+    .carousel-caption {
+        background-color: rgba(0, 110, 255, 0.274);
+        color: white !important;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    
+    .carousel-caption h5 {
+        text-decoration: underline;
+    }
