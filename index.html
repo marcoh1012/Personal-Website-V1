@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-md fixed-top" id="navbar-container">
+        <nav class="navbar navbar-dark navbar-expand-md fixed-top col-12" id="navbar-container">
             <a class="navbar-brand" href="#">
                 <img src="imgs/Logo.png" width="60" height="60" alt="logo"> Marco Herrera
             </a>
@@ -53,10 +53,10 @@
 
     </header>
 
-    <div id="mainInfo" class="continer-fluid">
+    <div id="mainInfo">
 
         <!-- ABOUT ME Section -->
-        <div class="row continer-fluid" id="about_me">
+        <div class="row" id="about_me">
             <div class="col-12">
                 <h2>ABOUT ME</h2>
             </div>
@@ -81,7 +81,7 @@
         <hr>
 
         <!-- Experience Section -->
-        <div class="col-12">
+        <div id="experience">
             <h2>Experience</h2>
         </div>
         <div class="row">
@@ -96,6 +96,7 @@
                     <img src="imgs/icons/jasmine.png" alt="jasmine" id="icon">
                     <img src="imgs//icons/python.png" alt="python" id="icon">
                     <img src="imgs//icons/java.png" alt="java" id="icon">
+                    <img src="imgs//icons/c2.png" alt="c" id="icon">
                     <img src="imgs//icons/git.png" alt="git" id="icon">
                     <img src="imgs//icons/github.png" alt="github" id="icon">
                     <img src="imgs//icons/sql.png" alt="sql" id="icon">
@@ -120,11 +121,11 @@
         </div>
         <hr>
         <!-- Projects Section Carousel -->
-        <div class="col-12">
+        <div id="projects">
             <h2>Projects</h2>
         </div>
         <div class="row">
-            <div id="carouselSlides" class="carousel slide col-12 col-md-8 offset-md-2" data-ride="carousel">
+            <div id="carouselSlides" class="carousel slide col col-md-8 offset-md-2" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselSlides" data-slide-to="1"></li>
@@ -135,7 +136,7 @@
 
                     <!-- Connect 4 Game -->
                     <div class="carousel-item active">
-                        <img src="imgs/projects/Connect4.png" class="d-block " alt="Connect4">
+                        <img src="imgs/projects/Connect4.png" class="d-block img-fluid " alt="Connect4">
                         <div class="carousel-caption">
                             <h5>CONNECT 4 GAME</h5>
                             <p>
@@ -159,7 +160,7 @@
 
                     <!-- Hack or Snooze -->
                     <div class="carousel-item">
-                        <img src="imgs/projects/HackorSnooze.png" class="d-block " alt="HackorSnooze">
+                        <img src="imgs/projects/HackorSnooze.png" class="d-block img-fluid" alt="HackorSnooze">
                         <div class="carousel-caption">
                             <h5>HACK or SNOOZE</h5>
                             <p>
@@ -182,7 +183,7 @@
 
                     <!-- Memory Game -->
                     <div class="carousel-item">
-                        <img src="imgs/projects/memoryGame.png" class="d-block " alt="memoryGame">
+                        <img src="imgs/projects/memoryGame.png" class="d-block img-fluid" alt="memoryGame">
                         <div class="carousel-caption">
                             <h5>MEMORY GAME</h5>
                             <p>
@@ -205,7 +206,7 @@
 
                     <!-- UFARM IIT -->
                     <div class="carousel-item">
-                        <img src="imgs/projects/Ufarm.png" class="d-block " alt="UFARM">
+                        <img src="imgs/projects/Ufarm.png" class="d-block img-fluid" alt="UFARM">
                         <div class="carousel-caption">
                             <h5>UFARM @ IIT</h5>
                             <p>
@@ -422,7 +423,7 @@
         <hr>
 
         <!-- Contact Section -->
-        <div class="col-12">
+        <div id="contact">
             <h2>Contact</h2>
         </div>
         <div class="row">

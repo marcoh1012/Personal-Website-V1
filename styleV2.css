@@ -1,13 +1,18 @@
 html,
-body,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    align-items: center !important;
+    scroll-padding-top: 70px;
+}
+
 header {
     height: 100%;
     width: 100%;
-    background-color: rgb(26, 82, 118);
 }
 
-#introContent,
-header {
+#introContent {
     height: 100%;
 }
 

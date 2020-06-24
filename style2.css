@@ -14,7 +14,9 @@
     
     .row {
         text-align: center;
-        width: 100%;
+        width: 100% !important;
+        position: relative;
+        left: 0.9rem;
     }
     
     #aboutMe {
@@ -41,8 +43,8 @@
     
     .hobbies li {
         display: inline;
-        margin-right: 0.5rem;
-        padding-right: 0.5rem;
+        margin-right: 0.25rem;
+        padding-right: 0.25rem;
     }
     /* Section Detail Font Styles */
     
@@ -94,13 +96,12 @@
         color: red !important
     }
     
-    #carousel-pic {
-        width: fit-content;
-        margin: auto;
+    .carousel-pic {
+        width: 100%;
     }
     
-    .carousel-inner img {
-        margin: auto;
+    .carousel-inner .carousel-item img {
+        margin: 0 auto;
     }
     
     .carousel-caption {

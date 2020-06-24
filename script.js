@@ -1,6 +1,4 @@
-// Modals activated
-
-// $('.connect-4-info').on('click', () => {
-//     console.log('hi')
-//     $('.connect-4-modal').toggle()
-// })
+// collapse nav bar when clicked on mobile
+$('.navbar-nav>li>a').on('click', function() {
+    $('.navbar-collapse').collapse('hide');
+});
