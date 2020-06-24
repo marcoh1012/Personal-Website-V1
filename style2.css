@@ -14,6 +14,7 @@
     
     .row {
         text-align: center;
+        width: 100%;
     }
     
     #aboutMe {
@@ -23,7 +24,7 @@
     #headshot {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        width: 400px
+        width: 400px;
     }
     
     @media screen and (max-width: 800px) {
@@ -33,12 +34,12 @@
         }
     }
     
-    ul {
+    .hobbies {
         list-style-type: none;
         display: block;
     }
     
-    ul>li {
+    .hobbies li {
         display: inline;
         margin-right: 0.5rem;
         padding-right: 0.5rem;
@@ -115,5 +116,49 @@
     /* modals style */
     
     .modal {
-        color: blue;
+        color: white;
+    }
+    
+    .modal-header,
+    .modal-footer {
+        background-color: black;
+    }
+    
+    .modal-body {
+        background-color: rgb(26, 82, 118);
+    }
+    
+    .modal-img {
+        text-align: center;
+    }
+    
+    .modal-img img {
+        height: 20rem;
+        border-radius: 15px;
+        margin-bottom: 4px;
+        max-width: 28rem;
+    }
+    
+    .tech-links {
+        color: white !important;
+        text-align: center;
+        font-size: larger;
+    }
+    
+    .tech-links i {
+        font-size: 2em;
+        padding: 0.5rem;
+    }
+    
+    #modal-icon {
+        width: 3.5em;
+        padding: 0.5rem;
+        position: relative;
+        bottom: 0.5rem;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    
+    .tech-links button :hover {
+        color: red;
     }
