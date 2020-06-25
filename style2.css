@@ -131,6 +131,10 @@
         background-color: rgb(26, 82, 118);
     }
     
+    .closeX {
+        color: rgb(255, 0, 0);
+    }
+    
     .modal-img {
         text-align: center;
     }
