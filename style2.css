@@ -184,7 +184,7 @@
             width: 430px;
         }
         .modal-img img {
-            max-width: 20em;
+            max-width: 25em;
         }
     }
     
@@ -194,9 +194,9 @@
             width: 200px;
         }
         iframe {
-            width: 20em;
+            max-width: 12em;
         }
         .modal-img img {
-            max-width: 20em;
+            max-width: 15em;
         }
     }
