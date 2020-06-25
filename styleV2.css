@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: rgb(26, 82, 118);
     align-items: center !important;
     scroll-padding-top: 70px;
 }

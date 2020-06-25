@@ -132,7 +132,7 @@
     }
     
     .modal-img img {
-        height: 20rem;
+        max-height: 20rem;
         border-radius: 15px;
         margin-bottom: 4px;
         max-width: 28em;
@@ -177,14 +177,18 @@
         font-size: 3rem;
         color: red;
     }
+    
+    iframe {
+        max-height: 15rem;
+    }
     /* mobile size */
     
     @media screen and (max-width: 1440px) {
         iframe {
-            width: 10em;
+            max-width: 28rem;
         }
         .modal-img img {
-            max-width: 10em;
+            max-width: 25rem;
         }
     }
     
@@ -194,9 +198,13 @@
             width: 200px;
         }
         iframe {
-            max-width: 12em;
+            width: 20rem;
         }
         .modal-img img {
-            max-width: 15em;
+            max-width: 20rem;
+        }
+        #icon {
+            width: 100px;
+            height: 100px;
         }
     }
