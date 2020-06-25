@@ -179,7 +179,7 @@
     }
     /* mobile size */
     
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1280px) {
         #headshot {
             padding-top: 0.5rem;
             width: 200px;
