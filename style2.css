@@ -28,14 +28,6 @@
         padding-bottom: 1rem;
         width: 400px;
     }
-    /* mobile size */
-    
-    @media screen and (max-width: 800px) {
-        #headshot {
-            padding-top: 0.5rem;
-            width: 200px;
-        }
-    }
     
     .hobbies {
         list-style-type: none;
@@ -184,4 +176,18 @@
     .social-icons :hover {
         font-size: 3rem;
         color: red;
+    }
+    /* mobile size */
+    
+    @media screen and (max-width: 800px) {
+        #headshot {
+            padding-top: 0.5rem;
+            width: 200px;
+        }
+        iframe {
+            width: 430px;
+        }
+        .modal-img img {
+            width: 430px;
+        }
     }
