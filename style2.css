@@ -181,10 +181,10 @@
     
     @media screen and (max-width: 1440px) {
         iframe {
-            width: 430px;
+            width: 10em;
         }
         .modal-img img {
-            max-width: 25em;
+            max-width: 10em;
         }
     }
     
