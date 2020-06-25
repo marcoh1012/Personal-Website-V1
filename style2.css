@@ -28,6 +28,7 @@
         padding-bottom: 1rem;
         width: 400px;
     }
+    /* mobile size */
     
     @media screen and (max-width: 800px) {
         #headshot {
