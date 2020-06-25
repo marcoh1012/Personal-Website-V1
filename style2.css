@@ -180,14 +180,23 @@
     /* mobile size */
     
     @media screen and (max-width: 1440px) {
-        #headshot {
-            padding-top: 0.5rem;
-            width: 200px;
-        }
         iframe {
             width: 430px;
         }
         .modal-img img {
             max-width: 25em;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        #headshot {
+            padding-top: 0.5rem;
+            width: 200px;
+        }
+        iframe {
+            width: 20em;
+        }
+        .modal-img img {
+            max-width: 20em;
         }
     }
