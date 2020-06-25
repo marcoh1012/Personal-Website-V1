@@ -12,10 +12,6 @@ header {
     width: 100%;
 }
 
-#introContent {
-    height: 100%;
-}
-
 #navbar-container {
     /* background-color: rgba(2, 159, 250, 0.555); */
     background-color: rgb(26, 82, 118);
@@ -23,7 +19,11 @@ header {
 }
 
 #introContent {
-    height: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
     color: white;
     background: url('imgs/homepage2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -189,7 +189,8 @@ header {
 /* loagind animation style*/
 
 .loading-page {
-    z-index: 100;
+    position: relative;
+    z-index: 10;
     width: 100%;
     height: 100%;
     margin: 0;
