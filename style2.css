@@ -135,7 +135,7 @@
         height: 20rem;
         border-radius: 15px;
         margin-bottom: 4px;
-        max-width: 28rem;
+        max-width: 28em;
     }
     
     .tech-links {
@@ -179,7 +179,7 @@
     }
     /* mobile size */
     
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1440px) {
         #headshot {
             padding-top: 0.5rem;
             width: 200px;
@@ -188,6 +188,6 @@
             width: 430px;
         }
         .modal-img img {
-            width: 430px;
+            max-width: 25em;
         }
     }
