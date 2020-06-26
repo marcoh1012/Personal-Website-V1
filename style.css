@@ -69,8 +69,8 @@ header {
 }
 
 #introBox div:nth-child(3) {
-    width: 17em;
-    height: 20px;
+    width: 20em;
+    height: 25px;
     opacity: 0;
     -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
     animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
