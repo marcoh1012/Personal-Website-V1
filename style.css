@@ -51,8 +51,8 @@ header {
 
 #introBox div:nth-child(1) {
     width: 20em;
-    -webkit-animation: type 4s steps(40, end);
-    animation: type 4s steps(40, end);
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -60,22 +60,22 @@ header {
 #introBox div:nth-child(2) {
     width: 20rem;
     opacity: 0;
-    -webkit-animation: type2 4s steps(30, end);
-    animation: type2 4s steps(30, end);
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation: type2 2s steps(30, end);
+    animation: type2 2s steps(30, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 #introBox div:nth-child(3) {
     width: 20em;
-    height: 25px;
+    height: 27px;
     opacity: 0;
     -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
     animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
