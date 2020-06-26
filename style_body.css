@@ -12,6 +12,41 @@
         text-decoration: underline;
     }
     
+    p,
+    h6,
+    ul {
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Cinzel', serif;
+    }
+    
+    p a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    h6 a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
+    
+    p a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    h6 a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    
     .row {
         text-align: center;
         width: 100% !important;
@@ -90,7 +125,7 @@
     }
     
     .carousel-btn:hover {
-        color: red !important;
+        color: blue !important;
         font-size: 2rem !important;
     }
     
@@ -163,7 +198,12 @@
     }
     
     .tech-links button :hover {
-        color: red;
+        color: blue;
+    }
+    /* contact me style */
+    
+    .email {
+        padding-top: 0.75rem;
     }
     /* footer */
     
@@ -179,7 +219,7 @@
     
     .social-icons :hover {
         font-size: 3rem;
-        color: red;
+        color: blue;
     }
     
     iframe {
