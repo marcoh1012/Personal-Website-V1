@@ -65,8 +65,8 @@
     
     #headshot {
         padding-top: 1rem;
-        padding-bottom: 1rem;
-        width: 400px;
+        padding-bottom: 0.3rem;
+        width: 225px;
     }
     
     .hobbies {
@@ -240,7 +240,7 @@
     @media screen and (max-width: 800px) {
         #headshot {
             padding-top: 0.5rem;
-            width: 200px;
+            width: 100px;
         }
         iframe {
             width: 20rem;
@@ -252,4 +252,26 @@
             width: 100px;
             height: 100px;
         }
+    }
+    /* about section redo */
+    
+    #about_me {
+        display: flexbox;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .about-table {
+        display: flexbox;
+        align-items: center;
+    }
+    
+    .nav-tabs a {
+        color: black !important;
+        font-weight: bold;
+    }
+    
+    .nav-tabs:active {
+        color: blue !important;
+        font-weight: bold;
     }

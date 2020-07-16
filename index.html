@@ -54,7 +54,7 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class=" nav-link active" href="#about_me">About</a></li>
-                    <li class="nav-item"><a class=" nav-link" href="#experience">Experience</a></li>
+                    <!-- <li class="nav-item"><a class=" nav-link" href="nav-technical-skills-tab">Experience</a></li> -->
                     <li class="nav-item"><a class="  nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class=" nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -82,487 +82,493 @@
 
     <div id="mainInfo" style="display: none;">
 
+
+
         <!-- ABOUT ME Section -->
-        <div class="row fade-div" id="about_me">
+        <div class="container fade-div" id="about_me">
             <div class="col-12">
                 <h2>ABOUT ME</h2>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3 ">
-                <img src="imgs/headshot.png" id="headshot" alt="headshot">
-                <p id="aboutMe"> HI, My name is Marco and i'm a Software Engineer based in Chicago, IL. <br> <br>I graduated from
-                    <a class='link' href="https://www.iit.edu/">Illinois Institute of Technology</a> in May, 2018 with a Bachelor of Science in Computer Engineering. My passion for software in both front and back end led me to study Software Engineering
-                    at
-                    <a class='link' href="https://Springboard.com">SpringBoard</a>. I am obtaining additional hands on experience with more programming languages and frameworks. I aspire towards a career that will allow me to use these skills and knowledge
-                    to create amazing software that will have a positive impact in the world.
-                </p>
-                <p class="text-align-center">
-                    <h4>Hobbies:</h4>
-                    <ul class="hobbies">
-                        <li><i>Soccer</i></li>
-                        <li><i>Micro Soldering</i></li>
-                        <li><i>Electronic Repair</i></li>
-                        <li><i>3D Printing</i></li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <hr>
-
-        <!-- Experience Section -->
-
-        <div class="row fade-div">
-            <div id="experience" class="col-12">
-                <h2>Experience</h2>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-6 offset-lg-1 ">
-                <h4 style="text-align: left;">TECHNICAL SKILLS IN:</h4>
-                <div>
-                    <img src="imgs/icons/html5.png" alt="HTML5" id="icon">
-                    <img src="imgs/icons/js.png" alt="JS" id="icon">
-                    <img src="imgs/icons/css.png" alt="CSS" id="icon">
-                    <img src="imgs/icons/bootstrap.png" alt="bootstrap" id="icon">
-                    <img src="imgs/icons/jasmine.png" alt="jasmine" id="icon">
-                    <img src="imgs/icons/python.png" alt="python" id="icon">
-                    <img src="imgs/icons/java.png" alt="java" id="icon">
-                    <img src="imgs/icons/c2.png" alt="c" id="icon">
-                    <img src="imgs/icons/git.png" alt="git" id="icon">
-                    <img src="imgs/icons/github.png" alt="github" id="icon">
-                    <img src="imgs/icons/sql.png" alt="sql" id="icon">
-                    <img src="imgs/icons/postgresql.png" alt="postgresql" id="icon">
-                    <img src="imgs/icons/mysql.png" alt="mysql" id="icon">
-                    <img src="imgs/icons/Visual_Studio.png" alt="Visual_Studio" id="icon">
-                    <img src="imgs/icons/photoshop.png" alt="photoshop" id="icon">
-                    <img src="imgs/icons/arduino.png" alt="arduino" id="icon">
-                    <img src="imgs/icons/linux.png" alt="linux" id="icon">
-                    <img src="imgs/icons/Windows.png" alt="Windows" id="icon">
-                </div>
-
-            </div>
-            <div class="col-sm-12 col-md-2 col-lg-4">
-                <h4>CURRENT WORK:</h4>
-                <Mr>
-                    <h6> CNC Programmer at :</h6>
-                </Mr>
-                <a href="https://www.bestbuycarpets.com/"> <img src="imgs/icons/BBCG.PNG" alt="BBCG" id="bbcg-icon"></a>
-                <h6> <a href="https://www.bestbuycarpets.com/">Best Buy Carpet & Granite</a> </h6>
-            </div>
-        </div>
-        <hr>
-        <!-- Projects Section Carousel -->
-
-        <div class="row fade-div">
-            <div id="projects" class="col-12">
-                <h2>Projects</h2>
-            </div>
-            <div id="carouselSlides" class="carousel slide col col-md-8 offset-md-2" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselSlides" data-slide-to="1"></li>
-                    <li data-target="#carouselSlides" data-slide-to="2"></li>
-                    <li data-target="#carouselSlides" data-slide-to="3"></li>
-                    <li data-target="#carouselSlides" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-
-                    <!-- Connect 4 Game -->
-                    <div class="carousel-item active">
-                        <a data-toggle="modal" data-target="#connect4-modal">
-                            <img src="imgs/projects/Connect4.png" class="d-block img-fluid " alt="Connect4">
-                        </a>
-                        <div class="carousel-caption">
-                            <h5>CONNECT 4 GAME</h5>
-                            <p>
-                                <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#connect4-modal">
-                                    <i class="fas fa-info-circle"></i>
-                                  </button>
-                                <a href="https://marcoh1012.github.io/ConnectFour/">
-                                    <button class='btn carousel-btn' type="button">
-                                            <i class="fas fa-external-link-alt"></i>
-                                  </button>
-                                </a>
-                                <a href="https://github.com/marcoh1012/ConnectFour">
-                                    <button class='btn carousel-btn' type="button">
-                                    <i class="fab fa-github"></i>
-                                  </button>
-                                </a>
-                            </p>
-
+            <div class="about-table">
+                <div class="d-block" id="selection">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab">Info</a>
+                            <a class="nav-item nav-link" id="nav-technical-skills-tab" data-toggle="tab" href="#nav-technical-skills" role="tab">Technical Skills</a>
+                            <a class="nav-item nav-link" id="nav-current-work-tab" data-toggle="tab" href="#nav-current-work" role="tab">Current Work</a>
+                            <a class="nav-item nav-link" id="nav-hobbies-tab" data-toggle="tab" href="#nav-hobbies" role="tab">Hobbies</a>
                         </div>
-                    </div>
-
-                    <!-- Hack or Snooze -->
-                    <div class="carousel-item">
-                        <a data-toggle="modal" data-target="#hacksnooze-modal">
-                            <img src="imgs/projects/HackorSnooze.png" class="d-block img-fluid" alt="HackorSnooze">
-                        </a>
-                        <div class="carousel-caption">
-                            <h5>HACK or SNOOZE</h5>
-                            <p>
-                                <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#hacksnooze-modal">
-                                    <i class="fas fa-info-circle"></i>
-                                  </button>
-                                <a href="https://marcoh1012.github.io/HackorSnooze/">
-                                    <button class='btn carousel-btn' type="button">
-                                            <i class="fas fa-external-link-alt"></i>
-                                  </button>
-                                </a>
-                                <a href="https://github.com/marcoh1012/HackorSnooze">
-                                    <button class='btn carousel-btn' type="button">
-                                    <i class="fab fa-github"></i>
-                                  </button>
-                                </a>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-about" role="tabpanel">
+                            <img src="imgs/headshot.png" id="headshot" alt="headshot">
+                            <!-- Social Media Icons -->
+                            <div>
+                                <a href="https://github.com/marcoh1012" class="social-icons"><i class="fab fa-github-square"></i></a>
+                                <a href="https://www.linkedin.com/in/marcoantonioherrera/" class="social-icons"><i class=" fab fa-linkedin "></i></a>
+                                <a href="https://www.instagram.com/marcoherrera95/ " class="social-icons"><i class="fab fa-instagram-square "></i></a>
+                            </div>
+                            <p id="aboutMe"> HI, My name is Marco and i'm a Software Engineer based in Chicago, IL. <br> <br>I graduated from
+                                <a class='link' href="https://www.iit.edu/">Illinois Institute of Technology</a> in May, 2018 with a Bachelor of Science in Computer Engineering. My passion for software in both front and back end led me to study Software
+                                Engineering at
+                                <a class='link' href="https://Springboard.com">SpringBoard</a>. I am obtaining additional hands on experience with more programming languages and frameworks. I aspire towards a career that will allow me to use these skills
+                                and knowledge to create amazing software that will have a positive impact in the world.
                             </p>
                         </div>
-                    </div>
-
-                    <!-- Memory Game -->
-                    <div class="carousel-item">
-                        <a data-toggle="modal" data-target="#memorygame-modal">
-                            <img src="imgs/projects/memoryGame.png" class="d-block img-fluid" alt="memoryGame">
-                        </a>
-                        <div class="carousel-caption">
-                            <h5>MEMORY GAME</h5>
-                            <p>
-                                <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#memorygame-modal">
-                                    <i class="fas fa-info-circle"></i>
-                                  </button>
-                                <a href="https://marcoh1012.github.io/MemoryGame/">
-                                    <button class='btn carousel-btn' type="button">
-                                            <i class="fas fa-external-link-alt"></i>
-                                  </button>
-                                </a>
-                                <a href="https://github.com/marcoh1012/MemoryGame">
-                                    <button class='btn carousel-btn' type="button">
-                                    <i class="fab fa-github"></i>
-                                  </button>
-                                </a>
-                            </p>
+                        <div class="tab-pane fade " id="nav-technical-skills" role="tabpanel">
+                            <h4 style="text-align: left;">TECHNICAL SKILLS IN:</h4>
+                            <div>
+                                <img src="imgs/icons/html5.png" alt="HTML5" id="icon">
+                                <img src="imgs/icons/js.png" alt="JS" id="icon">
+                                <img src="imgs/icons/css.png" alt="CSS" id="icon">
+                                <img src="imgs/icons/bootstrap.png" alt="bootstrap" id="icon">
+                                <img src="imgs/icons/jasmine.png" alt="jasmine" id="icon">
+                                <img src="imgs/icons/python.png" alt="python" id="icon">
+                                <img src="imgs/icons/java.png" alt="java" id="icon">
+                                <img src="imgs/icons/c2.png" alt="c" id="icon">
+                                <img src="imgs/icons/git.png" alt="git" id="icon">
+                                <img src="imgs/icons/github.png" alt="github" id="icon">
+                                <img src="imgs/icons/sql.png" alt="sql" id="icon">
+                                <img src="imgs/icons/postgresql.png" alt="postgresql" id="icon">
+                                <img src="imgs/icons/mysql.png" alt="mysql" id="icon">
+                                <img src="imgs/icons/Visual_Studio.png" alt="Visual_Studio" id="icon">
+                                <img src="imgs/icons/photoshop.png" alt="photoshop" id="icon">
+                                <img src="imgs/icons/arduino.png" alt="arduino" id="icon">
+                                <img src="imgs/icons/linux.png" alt="linux" id="icon">
+                                <img src="imgs/icons/Windows.png" alt="Windows" id="icon">
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- Desktop Cleaner App  -->
-                    <div class="carousel-item">
-                        <a data-toggle="modal" data-target="#desktopcleaner-modal">
-                            <img src="imgs/projects/DesktopCleaner.png" class="d-block img-fluid" alt="DesktopCleaner">
-                        </a>
-                        <div class="carousel-caption">
-                            <h5>DESKTOP CLEANER APP</h5>
-                            <p>
-                                <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#desktopcleaner-modal">
-                                    <i class="fas fa-info-circle"></i>
-                                  </button>
-                                </a>
-                                <a href="https://github.com/marcoh1012/DesktopCleaner-V2">
-                                    <button class='btn carousel-btn' type="button">
-                                    <i class="fab fa-github"></i>
-                                  </button>
-                                </a>
-                            </p>
+                        <div class="tab-pane fade " id="nav-current-work" role="tabpanel">
+                            <h4>CURRENT WORK:</h4>
+                            <Mr>
+                                <h6> CNC Programmer at :</h6>
+                            </Mr>
+                            <a href="https://www.bestbuycarpets.com/"> <img src="imgs/icons/BBCG.PNG" alt="BBCG" id="bbcg-icon"></a>
+                            <h6> <a href="https://www.bestbuycarpets.com/">Best Buy Carpet & Granite</a> </h6>
                         </div>
-                    </div>
-
-                    <!-- UFARM IIT -->
-                    <div class="carousel-item">
-                        <a data-toggle="modal" data-target="#ufarm-modal">
-                            <img src="imgs/projects/Ufarm.png" class="d-block img-fluid" alt="UFARM">
-                        </a>
-                        <div class="carousel-caption">
-                            <h5>UFARM @ IIT</h5>
-                            <p>
-                                <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#ufarm-modal">
-                                    <i class="fas fa-info-circle"></i>
-                                  </button>
-                                <a href="https://www.ufarmiit.org/">
-                                    <button class='btn carousel-btn' type="button">
-                                    <i class="fab fa-chrome"></i>
-                                  </button>
-                                </a>
-                            </p>
+                        <div class="tab-pane fade" id="nav-hobbies" role="tabpanel">
+                            <h4>Hobbies:</h4>
+                            <ul class="hobbies">
+                                <li><i>Soccer</i></li>
+                                <li><i>Micro Soldering</i></li>
+                                <li><i>Electronic Repair</i></li>
+                                <li><i>3D Printing</i></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
 
-        <!-- Modals for Projects -->
+            <hr>
+            <!-- Projects Section Carousel -->
 
-        <!-- connect 4 modal -->
-        <div class="modals">
-            <div class="modal fade" id="connect4-modal" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="connect4-modal">Connect 4 Game</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true" class="closeX">&times;</span>
-      </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <div class="modal-img">
-                                    <img src="imgs/projects/Connect4.png" alt="connect 4 picture">
-                                </div>
-                                <ul>
-                                    <li>Two Player Game, Connect 4 chips in any orientation to win.</li>
-                                    <li>Animated Chip dropping for each turn.</li>
-                                    <li>O(n) time complexity to find a winner.</li>
-                                </ul>
-                                <p class="tech-links">
-                                    Technologies: <br>
-                                    <i class="fab fa-html5"></i>
-                                    <i class="fab fa-css3-alt"></i>
-                                    <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+            <div class="row fade-div">
+                <div id="projects" class="col-12">
+                    <h2>Projects</h2>
+                </div>
+                <div id="carouselSlides" class="carousel slide col col-md-8 offset-md-2" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSlides" data-slide-to="1"></li>
+                        <li data-target="#carouselSlides" data-slide-to="2"></li>
+                        <li data-target="#carouselSlides" data-slide-to="3"></li>
+                        <li data-target="#carouselSlides" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+
+                        <!-- Connect 4 Game -->
+                        <div class="carousel-item active">
+                            <a data-toggle="modal" data-target="#connect4-modal">
+                                <img src="imgs/projects/Connect4.png" class="d-block img-fluid " alt="Connect4">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>CONNECT 4 GAME</h5>
+                                <p>
+                                    <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#connect4-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
                                     <a href="https://marcoh1012.github.io/ConnectFour/">
-                                        <button class='btn tech-links' type="button">
-                                                <i class="fas fa-external-link-alt"></i>
+                                        <button class='btn carousel-btn' type="button">
+                                            <i class="fas fa-external-link-alt"></i>
                                   </button>
                                     </a>
                                     <a href="https://github.com/marcoh1012/ConnectFour">
-                                        <button class='btn tech-links' type="button">
+                                        <button class='btn carousel-btn' type="button">
                                     <i class="fab fa-github"></i>
                                   </button>
                                     </a>
                                 </p>
-                            </p>
 
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Hack or Snooze -->
-        <div class="modals">
-            <div class="modal fade" id="hacksnooze-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="hacksnooze-modal">Hack or Snooze</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true" class="closeX">&times;</span>
-      </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <div class="modal-img">
-                                    <img src="imgs/projects/HackorSnooze2.png" alt="Hack or Snooze picture">
-                                </div>
-                                <ul>
-                                    <li>Functional Clone of Hacker News.</li>
-                                    <li>Implemented hack-or-snooze API.</li>
-                                    <li>Use localStorage to store logged in user data.</li>
-                                </ul>
-                                <p class="tech-links">
-                                    Technologies: <br>
-                                    <i class="fab fa-html5"></i>
-                                    <i class="fab fa-css3-alt"></i>
-                                    <i class="fab fa-js"></i> <br> Deployment & Code:<br>
-                                    <a href="https://marcoh1012.github.io/HackorSnooze">
-                                        <button class='btn tech-links' type="button">
-                                                <i class="fas fa-external-link-alt"></i>
+                        <!-- Hack or Snooze -->
+                        <div class="carousel-item">
+                            <a data-toggle="modal" data-target="#hacksnooze-modal">
+                                <img src="imgs/projects/HackorSnooze.png" class="d-block img-fluid" alt="HackorSnooze">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>HACK or SNOOZE</h5>
+                                <p>
+                                    <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#hacksnooze-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
+                                    <a href="https://marcoh1012.github.io/HackorSnooze/">
+                                        <button class='btn carousel-btn' type="button">
+                                            <i class="fas fa-external-link-alt"></i>
                                   </button>
                                     </a>
                                     <a href="https://github.com/marcoh1012/HackorSnooze">
-                                        <button class='btn tech-links' type="button">
+                                        <button class='btn carousel-btn' type="button">
                                     <i class="fab fa-github"></i>
                                   </button>
                                     </a>
                                 </p>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Memory Game -->
-        <div class="modals">
-            <div class="modal fade" id="memorygame-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="memorygame-modal">Connect 4 Game</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true" class="closeX">&times;</span>
-      </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <div class="modal-img">
-                                    <img src="imgs/projects/memoryGame.png" alt="memory game picture">
-                                </div>
-                                <ul>
-                                    <li>Super Hero Themed Memory Card Game</li>
-                                    <li>Flip two card to check if they match. if they don't match they flip back over.</li>
-                                    <li>Try to match all cards with least amount of guesses</li>
-                                    <li>Use localStorage to store high score.</li>
-                                </ul>
-                                <p class="tech-links">
-                                    Technologies: <br>
-                                    <i class="fab fa-html5"></i>
-                                    <i class="fab fa-css3-alt"></i>
-                                    <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+                        <!-- Memory Game -->
+                        <div class="carousel-item">
+                            <a data-toggle="modal" data-target="#memorygame-modal">
+                                <img src="imgs/projects/memoryGame.png" class="d-block img-fluid" alt="memoryGame">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>MEMORY GAME</h5>
+                                <p>
+                                    <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#memorygame-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
                                     <a href="https://marcoh1012.github.io/MemoryGame/">
-                                        <button class='btn tech-links' type="button">
-                                                <i class="fas fa-external-link-alt"></i>
+                                        <button class='btn carousel-btn' type="button">
+                                            <i class="fas fa-external-link-alt"></i>
                                   </button>
                                     </a>
                                     <a href="https://github.com/marcoh1012/MemoryGame">
-                                        <button class='btn tech-links' type="button">
+                                        <button class='btn carousel-btn' type="button">
                                     <i class="fab fa-github"></i>
                                   </button>
                                     </a>
                                 </p>
-                            </p>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-
-        <!-- Desktop Cleaner App -->
-        <div class="modals">
-            <div class="modal fade" id="desktopcleaner-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="desktopcleaner-modal">Desktop Cleaner</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true" class="closeX">&times;</span>
-      </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <div class="modal-img">
-                                    <iframe width="470" height="315" src="https://www.youtube-nocookie.com/embed/xrBc8xsCuX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
-                                </div>
-                                <ul>
-                                    <li>Clean Up the desktop directory with one click.</li>
-                                    <li>Items are sorted by their extensions. (e.g. '.txt')</li>
-                                    <li>Used PyQt for app GUI.</li>
-                                </ul>
-                                <p class="tech-links">
-                                    Technologies: <br>
-                                    <i class="fab fa-python"></i>
-                                    <a href="https://marcoh1012.github.io/MemoryGame/">
+                        <!-- Desktop Cleaner App  -->
+                        <div class="carousel-item">
+                            <a data-toggle="modal" data-target="#desktopcleaner-modal">
+                                <img src="imgs/projects/DesktopCleaner.png" class="d-block img-fluid" alt="DesktopCleaner">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>DESKTOP CLEANER APP</h5>
+                                <p>
+                                    <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#desktopcleaner-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
                                     </a>
-                                    <br> Code: <br>
                                     <a href="https://github.com/marcoh1012/DesktopCleaner-V2">
-                                        <button class='btn tech-links' type="button">
+                                        <button class='btn carousel-btn' type="button">
                                     <i class="fab fa-github"></i>
                                   </button>
                                     </a>
                                 </p>
-                            </p>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- UFARM IIT -->
-        <div class="modals">
-            <div class="modal fade" id="ufarm-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="ufarm-modal">Connect 4 Game</h5>
-                            <button type="button" class="close" data-dismiss="modal">
-        <span aria-hidden="true" class="closeX">&times;</span>
-      </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                <div class="modal-img">
-                                    <img src="imgs/projects/Ufarm.png" alt="memory game picture">
-                                </div>
-                                <ul>
-                                    <li>Leader of Electrical & Programming Group of 7 students.</li>
-                                    <li>Designed and implemented arduino controlled automated irrigation system.</li>
-                                    <li>Optimized using moisture sensors to save power and water.</li>
-                                    <li>Used a Raspberry Pi to store all data and for comminication with arduino.</li>
-                                </ul>
-                                <p class="tech-links">
-                                    Technologies: <br>
-                                    <i class="fab fa-raspberry-pi"></i>
-                                    <img src="imgs//icons/arduino.png" alt="arduino" id='modal-icon'>
-                                    <img src="imgs//icons/c.png" alt="c" id="modal-icon">
-                                    <br> Website:<br>
-                                    </button>
+                        <!-- UFARM IIT -->
+                        <div class="carousel-item">
+                            <a data-toggle="modal" data-target="#ufarm-modal">
+                                <img src="imgs/projects/Ufarm.png" class="d-block img-fluid" alt="UFARM">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>UFARM @ IIT</h5>
+                                <p>
+                                    <button class='btn carousel-btn' type="button" data-toggle="modal" data-target="#ufarm-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
                                     <a href="https://www.ufarmiit.org/">
-                                        <button class='btn tech-links' type="button">
+                                        <button class='btn carousel-btn' type="button">
                                     <i class="fab fa-chrome"></i>
                                   </button>
                                     </a>
                                 </p>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Modals for Projects -->
+
+            <!-- connect 4 modal -->
+            <div class="modals">
+                <div class="modal fade" id="connect4-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="connect4-modal">Connect 4 Game</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <img src="imgs/projects/Connect4.png" alt="connect 4 picture">
+                                    </div>
+                                    <ul>
+                                        <li>Two Player Game, Connect 4 chips in any orientation to win.</li>
+                                        <li>Animated Chip dropping for each turn.</li>
+                                        <li>O(n) time complexity to find a winner.</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-html5"></i>
+                                        <i class="fab fa-css3-alt"></i>
+                                        <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+                                        <a href="https://marcoh1012.github.io/ConnectFour/">
+                                            <button class='btn tech-links' type="button">
+                                                <i class="fas fa-external-link-alt"></i>
+                                  </button>
+                                        </a>
+                                        <a href="https://github.com/marcoh1012/ConnectFour">
+                                            <button class='btn tech-links' type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <hr>
-
-        <!-- Contact Section -->
-
-        <div class="row fade-div">
-            <div id="contact" class="col-12">
-                <h2>Contact</h2>
+            <!-- Hack or Snooze -->
+            <div class="modals">
+                <div class="modal fade" id="hacksnooze-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="hacksnooze-modal">Hack or Snooze</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <img src="imgs/projects/HackorSnooze2.png" alt="Hack or Snooze picture">
+                                    </div>
+                                    <ul>
+                                        <li>Functional Clone of Hacker News.</li>
+                                        <li>Implemented hack-or-snooze API.</li>
+                                        <li>Use localStorage to store logged in user data.</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-html5"></i>
+                                        <i class="fab fa-css3-alt"></i>
+                                        <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+                                        <a href="https://marcoh1012.github.io/HackorSnooze">
+                                            <button class='btn tech-links' type="button">
+                                                <i class="fas fa-external-link-alt"></i>
+                                  </button>
+                                        </a>
+                                        <a href="https://github.com/marcoh1012/HackorSnooze">
+                                            <button class='btn tech-links' type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4 offset-md-2">
-                <h4>DOWNLOAD MY RESUME</h4>
-                <a href="Marco Herrera Resume.pdf" download><img src="imgs/icons/resume.png" alt="resume" id="resume-icon"></div>
-            </a>
-            <div class="col-sm-12 col-md-4 email">
-                <h4>MESSAGE ME</h4>
-                <a href="mailto: herreramarco340@gmail.com"><img src="imgs/icons/email.png" alt="email" id="email-icon"></div>
-            </a>
-        </div>
-        <div class="footer">
-            <!-- Social Media Icons -->
-            <div>
-                <a href="https://github.com/marcoh1012" class="social-icons"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/marcoantonioherrera/" class="social-icons"><i class=" fab fa-linkedin "></i></a>
-                <a href="https://www.instagram.com/marcoherrera95/ " class="social-icons"><i class="fab fa-instagram-square "></i></a>
+
+            <!-- Memory Game -->
+            <div class="modals">
+                <div class="modal fade" id="memorygame-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="memorygame-modal">Connect 4 Game</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <img src="imgs/projects/memoryGame.png" alt="memory game picture">
+                                    </div>
+                                    <ul>
+                                        <li>Super Hero Themed Memory Card Game</li>
+                                        <li>Flip two card to check if they match. if they don't match they flip back over.</li>
+                                        <li>Try to match all cards with least amount of guesses</li>
+                                        <li>Use localStorage to store high score.</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-html5"></i>
+                                        <i class="fab fa-css3-alt"></i>
+                                        <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+                                        <a href="https://marcoh1012.github.io/MemoryGame/">
+                                            <button class='btn tech-links' type="button">
+                                                <i class="fas fa-external-link-alt"></i>
+                                  </button>
+                                        </a>
+                                        <a href="https://github.com/marcoh1012/MemoryGame">
+                                            <button class='btn tech-links' type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            Designed & Built By Marco Herrera <br>
-            <i class="far fa-copyright"></i> 2020 Marco Herrera
+
+
+            <!-- Desktop Cleaner App -->
+            <div class="modals">
+                <div class="modal fade" id="desktopcleaner-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="desktopcleaner-modal">Desktop Cleaner</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <iframe width="470" height="315" src="https://www.youtube-nocookie.com/embed/xrBc8xsCuX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+                                    </div>
+                                    <ul>
+                                        <li>Clean Up the desktop directory with one click.</li>
+                                        <li>Items are sorted by their extensions. (e.g. '.txt')</li>
+                                        <li>Used PyQt for app GUI.</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-python"></i>
+                                        <a href="https://marcoh1012.github.io/MemoryGame/">
+                                        </a>
+                                        <br> Code: <br>
+                                        <a href="https://github.com/marcoh1012/DesktopCleaner-V2">
+                                            <button class='btn tech-links' type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UFARM IIT -->
+            <div class="modals">
+                <div class="modal fade" id="ufarm-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ufarm-modal">Connect 4 Game</h5>
+                                <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <img src="imgs/projects/Ufarm.png" alt="memory game picture">
+                                    </div>
+                                    <ul>
+                                        <li>Leader of Electrical & Programming Group of 7 students.</li>
+                                        <li>Designed and implemented arduino controlled automated irrigation system.</li>
+                                        <li>Optimized using moisture sensors to save power and water.</li>
+                                        <li>Used a Raspberry Pi to store all data and for comminication with arduino.</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-raspberry-pi"></i>
+                                        <img src="imgs//icons/arduino.png" alt="arduino" id='modal-icon'>
+                                        <img src="imgs//icons/c.png" alt="c" id="modal-icon">
+                                        <br> Website:<br>
+                                        </button>
+                                        <a href="https://www.ufarmiit.org/">
+                                            <button class='btn tech-links' type="button">
+                                    <i class="fab fa-chrome"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Contact Section -->
+
+            <div class="row fade-div">
+                <div id="contact" class="col-12">
+                    <h2>Contact</h2>
+                </div>
+                <div class="col-sm-12 col-md-4 offset-md-2">
+                    <h4>DOWNLOAD MY RESUME</h4>
+                    <a href="Marco Herrera Resume.pdf" download><img src="imgs/icons/resume.png" alt="resume" id="resume-icon"></div>
+                </a>
+                <div class="col-sm-12 col-md-4 email">
+                    <h4>MESSAGE ME</h4>
+                    <a href="mailto: herreramarco340@gmail.com"><img src="imgs/icons/email.png" alt="email" id="email-icon"></div>
+                </a>
+            </div>
+            <div class="footer">
+                Designed & Built By Marco Herrera <br>
+                <i class="far fa-copyright"></i> 2020 Marco Herrera
+            </div>
         </div>
-    </div>
 
 
 
 
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-    <script src="script.js"></script>
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
