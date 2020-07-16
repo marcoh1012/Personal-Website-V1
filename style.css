@@ -214,15 +214,3 @@
         margin: 0 auto;
         fill: none;
     }
-    /* about section redo */
-    
-    #new_about_me {
-        display: flexbox;
-        justify-content: center;
-        text-align: center;
-    }
-    
-    .about-table {
-        display: flexbox;
-        align-items: center;
-    }

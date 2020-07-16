@@ -203,6 +203,10 @@
     }
     /* contact me style */
     
+    .contact_row h4 {
+        font-size: medium;
+    }
+    
     .email {
         padding-top: 0.75rem;
     }
@@ -240,7 +244,7 @@
     @media screen and (max-width: 800px) {
         #headshot {
             padding-top: 0.5rem;
-            width: 100px;
+            width: 200px;
         }
         iframe {
             width: 20rem;
@@ -251,6 +255,10 @@
         #icon {
             width: 100px;
             height: 100px;
+        }
+        .nav-tabs a {
+            font-size: 1rem;
+            padding: 0.1rem;
         }
     }
     /* about section redo */
@@ -266,12 +274,34 @@
         align-items: center;
     }
     
+    .nav-tabs span {
+        color: darkblue;
+        font-size: 12px;
+        padding: 1px
+    }
+    
+    .nav-tabs {
+        border-bottom: solid 2px rgb(7, 102, 211) !important;
+    }
+    
     .nav-tabs a {
-        color: black !important;
+        color: darkblue !important;
         font-weight: bold;
     }
     
-    .nav-tabs:active {
-        color: blue !important;
-        font-weight: bold;
+    .nav-tabs .active {
+        background-color: rgb(7, 102, 211) !important;
+        border: darkblue !important;
+    }
+    
+    #selection {
+        border: solid 2px black;
+        background-color: rgb(20, 99, 151);
+        box-shadow: 5px 5px 7px rgba(0, 0, 139, 0.356);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .tab-content h4 {
+        margin-top: 1rem;
     }
