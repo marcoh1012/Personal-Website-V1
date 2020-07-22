@@ -74,3 +74,13 @@ $('.navbar-nav>li>a')
         $('.navbar-collapse')
             .collapse('hide');
     });
+
+
+// show hobbie pictures
+$('.view-hobbies').on('click', function() {
+    if ($('.hobbies-row').css('display') == 'none') {
+        $('.hobbies-row').fadeIn(1000)
+    } else {
+        $('.hobbies-row').fadeOut('slow')
+    }
+})

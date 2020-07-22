@@ -66,7 +66,7 @@
     #headshot {
         padding-top: 1rem;
         padding-bottom: 0.3rem;
-        width: 225px;
+        width: 275px;
     }
     
     .hobbies {
@@ -260,6 +260,17 @@
             font-size: 1rem;
             padding: 0.1rem;
         }
+        .hobbies-column {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .hobbies-column {
+            flex: 100%;
+            max-width: 100%;
+        }
     }
     /* about section redo */
     
@@ -274,19 +285,14 @@
         align-items: center;
     }
     
-    .nav-tabs span {
-        color: darkblue;
-        font-size: 12px;
-        padding: 1px
-    }
-    
     .nav-tabs {
         border-bottom: solid 2px rgb(7, 102, 211) !important;
     }
     
-    .nav-tabs a {
+    .nav-tabs span {
         color: darkblue !important;
         font-weight: bold;
+        padding: 5px;
     }
     
     .nav-tabs .active {
@@ -304,4 +310,32 @@
     
     .tab-content h4 {
         margin-top: 1rem;
+    }
+    
+    .hobbies-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .hobbies-column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    
+    .hobbies-column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    
+    .view-hobbies span {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .view-hobbies:hover {
+        text-emphasis: emphasis;
+        text-decoration: underline;
     }
