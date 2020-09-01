@@ -202,11 +202,38 @@
                         <li data-target="#carouselSlides" data-slide-to="2"></li>
                         <li data-target="#carouselSlides" data-slide-to="3"></li>
                         <li data-target="#carouselSlides" data-slide-to="4"></li>
+                        <li data-target="#carouselSlides" data-slide-to="5"></li>
+
                     </ol>
                     <div class="carousel-inner">
+                        <!-- Inventory Management App -->
+                        <div class="carousel-item active">
+                            <a data-toggle="modal" data-target="#inventoryManagement-modal">
+                                <img src="imgs/projects/InventorySystem.jpg" class="d-block img-fluid " alt="Inventory Management Pic">
+                            </a>
+                            <div class="carousel-caption">
+                                <h5>Custom Inventory System</h5>
+                                <p>
+                                    <button title="more detail" class='btn carousel-btn' type="button" data-toggle="modal" data-target="#inventory-modal">
+                                    <i class="fas fa-info-circle"></i>
+                                  </button>
+                                    <a href="http://bbcg-inventory-management.herokuapp.com/">
+                                        <button title="Play" class='btn carousel-btn' type="button">
+                                            <i class="fas fa-external-link-alt"></i>
+                                  </button>
+                                    </a>
+                                    <a href="https://github.com/marcoh1012/BBCG-Inventory-Management/">
+                                        <button title="github" class='btn carousel-btn' type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
 
                         <!-- Connect 4 Game -->
-                        <div class="carousel-item active">
+                        <div class="carousel-item">
                             <a data-toggle="modal" data-target="#connect4-modal">
                                 <img src="imgs/projects/Connect4.png" class="d-block img-fluid " alt="Connect4">
                             </a>
@@ -334,6 +361,55 @@
             </div>
 
             <!-- Modals for Projects -->
+
+            <!-- Inventory Management App Modal -->
+            <div class="modals">
+                <div class="modal fade" id="inventory-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="connect4-modal">Custom Inventory Management</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="closeX">&times;</span>
+      </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <div class="modal-img">
+                                        <img src="imgs/projects/InventorySystem.jpg" alt="Inventory Management picture">
+                                    </div>
+                                    <ul>
+                                        <li>Custom Inventory System for Granite Manufacturing Company.</li>
+                                        <li>Generate Barcodes for incoming slabs(items)</li>
+                                        <li>Easily scan and keep track of material used</li>
+                                        <li>Automatically Generate Weekly Reports</li>
+                                    </ul>
+                                    <p class="tech-links">
+                                        Technologies: <br>
+                                        <i class="fab fa-html5"></i>
+                                        <i class="fab fa-css3-alt"></i>
+                                        <i class="fab fa-js"></i> <br> Deployment & Code:<br>
+                                        <a href="http://bbcg-inventory-management.herokuapp.com/">
+                                            <button class='btn tech-links' title="Play" type="button">
+                                                <i class="fas fa-external-link-alt"></i>
+                                  </button>
+                                        </a>
+                                        <a href="https://github.com/marcoh1012/BBCG-Inventory-Management">
+                                            <button class='btn tech-links' title="github" type="button">
+                                    <i class="fab fa-github"></i>
+                                  </button>
+                                        </a>
+                                    </p>
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- connect 4 modal -->
             <div class="modals">
