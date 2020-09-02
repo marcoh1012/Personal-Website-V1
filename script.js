@@ -84,3 +84,12 @@ $('.view-hobbies').on('click', function() {
         $('.hobbies-row').fadeOut('slow')
     }
 })
+
+/**show all projects */
+$('.viewAllProjects').on('click', function() {
+    if ($('.allProjects').css('display') == 'none') {
+        $('.allProjects').fadeIn(1000)
+    } else {
+        $('.allProjects').fadeOut('slow')
+    }
+})
