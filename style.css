@@ -5,6 +5,7 @@
         background-color: rgb(26, 82, 118);
         align-items: center !important;
         scroll-padding-top: 70px;
+        scroll-behavior: smooth;
     }
     
     header {
@@ -30,6 +31,24 @@
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
+    }
+    
+    #scrolldown {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white !important;
+        font-size: 3rem;
+        top: 92%;
+        /* background-color: rgba(128, 128, 128, 0.253) */
+    }
+    
+    #arrowdown {
+        width: 100%;
+    }
+    
+    #arrowdown i {
+        color: white;
     }
     
     #overlay {
