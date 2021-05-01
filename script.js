@@ -53,10 +53,10 @@ $(document)
                             .scrollTop() + $(window)
                             .height();
 
-                        if (bottom_of_window > bottom_of_object - 600) {
+                        if (bottom_of_window > bottom_of_object - 1500) {
 
                             $(this)
-                                .animate({ 'opacity': '1' }, 1500);
+                                .animate({ 'opacity': '1' }, 2000);
 
                         }
 
@@ -74,3 +74,22 @@ $('.navbar-nav>li>a')
         $('.navbar-collapse')
             .collapse('hide');
     });
+
+
+// show hobbie pictures
+$('.view-hobbies').on('click', function() {
+    if ($('.hobbies-row').css('display') == 'none') {
+        $('.hobbies-row').fadeIn(1000)
+    } else {
+        $('.hobbies-row').fadeOut('slow')
+    }
+})
+
+/**show all projects */
+$('.viewAllProjects').on('click', function() {
+    if ($('.allProjects').css('display') == 'none') {
+        $('.allProjects').fadeIn(1000)
+    } else {
+        $('.allProjects').fadeOut('slow')
+    }
+})

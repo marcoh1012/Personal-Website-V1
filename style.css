@@ -1,220 +1,235 @@
-html,
-body {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(26, 82, 118);
-    align-items: center !important;
-    scroll-padding-top: 70px;
-}
-
-header {
-    height: 100%;
-    width: 100%;
-}
-
-#navbar-container {
-    /* background-color: rgba(2, 159, 250, 0.555); */
-    background-color: rgb(26, 82, 118);
-    color: White;
-}
-
-#introContent {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    color: white;
-    background: url('imgs/homepage2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.5);
-}
-
-#introBox {
-    text-align: center;
-}
-
-#introBox div {
-    border-right: .15em solid #ffffff;
-    font-family: "Courier";
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-#introBox div:nth-child(1) {
-    width: 20em;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-#introBox div:nth-child(2) {
-    width: 20rem;
-    opacity: 0;
-    -webkit-animation: type2 2s steps(30, end);
-    animation: type2 2s steps(30, end);
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-#introBox div:nth-child(3) {
-    width: 20em;
-    height: 27px;
-    opacity: 0;
-    -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-.footer {
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: black solid 2px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(26, 82, 118);
-    /* background-color: rgb(15, 59, 87); */
-}
-
-
-/* Typing animation */
-
-@keyframes type {
-    0% {
-        width: 0;
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(26, 82, 118);
+        align-items: center !important;
+        scroll-padding-top: 70px;
+        scroll-behavior: smooth;
     }
-    99.9% {
+    
+    header {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #navbar-container {
+        /* background-color: rgba(2, 159, 250, 0.555); */
+        background-color: rgb(26, 82, 118);
+        color: White;
+    }
+    
+    #introContent {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        color: white;
+        background: url('imgs/homepage2.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    #scrolldown {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white !important;
+        font-size: 3rem;
+        top: 92%;
+        /* background-color: rgba(128, 128, 128, 0.253) */
+    }
+    
+    #arrowdown {
+        width: 100%;
+    }
+    
+    #arrowdown i {
+        color: white;
+    }
+    
+    #overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    
+    #introBox {
+        text-align: center;
+    }
+    
+    #introBox div {
         border-right: .15em solid #ffffff;
+        font-family: "Courier";
+        white-space: nowrap;
+        overflow: hidden;
     }
-    100% {
-        border: none;
+    
+    #introBox div:nth-child(1) {
+        width: 20em;
+        -webkit-animation: type 2s steps(40, end);
+        animation: type 2s steps(40, end);
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-}
-
-@-webkit-keyframes type {
-    0% {
-        width: 0;
+    
+    #introBox div:nth-child(2) {
+        width: 20rem;
+        opacity: 0;
+        -webkit-animation: type2 2s steps(30, end);
+        animation: type2 2s steps(30, end);
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-    99.9% {
-        border-right: .15em solid #ffffff;
+    
+    #introBox div:nth-child(3) {
+        width: 20em;
+        height: 27px;
+        opacity: 0;
+        -webkit-animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+        animation: type3 3s steps(40, end), blink .5s step-end infinite alternate;
+        -webkit-animation-delay: 5s;
+        animation-delay: 5s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-    100% {
-        border: none;
+    
+    .footer {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: black solid 2px;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(26, 82, 118);
+        /* background-color: rgb(15, 59, 87); */
     }
-}
-
-@keyframes type2 {
-    0% {
-        width: 0;
+    /* Typing animation */
+    
+    @keyframes type {
+        0% {
+            width: 0;
+        }
+        99.9% {
+            border-right: .15em solid #ffffff;
+        }
+        100% {
+            border: none;
+        }
     }
-    1% {
-        opacity: 1;
+    
+    @-webkit-keyframes type {
+        0% {
+            width: 0;
+        }
+        99.9% {
+            border-right: .15em solid #ffffff;
+        }
+        100% {
+            border: none;
+        }
     }
-    99.9% {
-        border-right: .15em solid #ffffff;
+    
+    @keyframes type2 {
+        0% {
+            width: 0;
+        }
+        1% {
+            opacity: 1;
+        }
+        99.9% {
+            border-right: .15em solid #ffffff;
+        }
+        100% {
+            opacity: 1;
+            border: none;
+        }
     }
-    100% {
-        opacity: 1;
-        border: none;
+    
+    @-webkit-keyframes type2 {
+        0% {
+            width: 0;
+        }
+        1% {
+            opacity: 1;
+        }
+        99.9% {
+            border-right: .15em solid #ffffff;
+        }
+        100% {
+            opacity: 1;
+            border: none;
+        }
     }
-}
-
-@-webkit-keyframes type2 {
-    0% {
-        width: 0;
+    
+    @keyframes type3 {
+        0% {
+            width: 0;
+        }
+        1% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-    1% {
-        opacity: 1;
+    
+    @-webkit-keyframes type3 {
+        0% {
+            width: 0;
+        }
+        1% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-    99.9% {
-        border-right: .15em solid #ffffff;
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
     }
-    100% {
-        opacity: 1;
-        border: none;
+    
+    @-webkit-keyframes blink {
+        50% {
+            border-color: tranparent;
+        }
     }
-}
-
-@keyframes type3 {
-    0% {
-        width: 0;
+    /* loagind animation style*/
+    
+    .loading-page {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    1% {
-        opacity: 1;
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
     }
-    100% {
-        opacity: 1;
+    
+    .loading-container {
+        width: max-content;
+        max-width: 150px;
     }
-}
-
-@-webkit-keyframes type3 {
-    0% {
-        width: 0;
+    
+    svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        fill: none;
     }
-    1% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-
-@-webkit-keyframes blink {
-    50% {
-        border-color: tranparent;
-    }
-}
-
-
-/* loagind animation style*/
-
-.loading-page {
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-.loading-container {
-    width: max-content;
-    max-width: 150px;
-}
-
-svg {
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    fill: none;
-}
